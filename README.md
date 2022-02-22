@@ -1,7 +1,10 @@
 # projects
 File Name: Software Analysis and Design 3
+
 Description: C++ projects submissions from Software Analysis and Design 3 (in progress).
+
 Grade: IP
+
 Summary of course:  Design and analysis of more algorithms using abstract data types. 
 
 Topics covered:     Algorithms, including searching, sorting, graph and tree algorithms. Problem-solving techniques. 
