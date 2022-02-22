@@ -1,6 +1,6 @@
 # projects
 
-File Name: Software Analysis and Design 3  
+File Name: __Software Analysis and Design 3__  
 Description: C++ projects submissions from Software Analysis and Design 3 (in progress).  
 Grade: IP  
 
@@ -8,7 +8,7 @@ Summary of course:  Design and analysis of more algorithms using abstract data t
 
 Topics covered:     Algorithms, including searching, sorting, graph and tree algorithms. Problem-solving techniques. Worst and average case behavior analysis and optimality. Polynomial time complexity classes and theory, including NP-completeness.  
                     
-File Name: Software Analysis and Design 2  
+File Name: __Software Analysis and Design 2__
 Description: C++ projects submissions from Software Analysis and Design 2.  
 Grade: A  
 
@@ -16,7 +16,7 @@ Summary of course:  Design and analysis of algorithms and abstract data types.
 
 Topics covered:     Data structures with related algorithms. abstraction, algorithm complexity, performance analysis and thetradeoffs between running time, storage size, clarity and extensibility, templates, inheritance, polymorphism, pointers, and dynamic memory allocation.
 
-File Name: Software Analysis and Design 1  
+File Name: __Software Analysis and Design 1__  
 Description: C++ projects submissions from Software Analysis and Design 1.  
 Grade: A  
 
