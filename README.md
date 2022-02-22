@@ -1,5 +1,5 @@
 # projects
-  CUNY HUNTER COLLEGE COURSES
+  CUNY HUNTER COLLEGE COURSES  
   **CSCI 335: Software Analysis and Design 3**  
   Description: C++ projects submissions from Software Analysis and Design 3 (in progress).  
   Grade: IP  
