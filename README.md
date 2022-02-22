@@ -1,18 +1,29 @@
-# projects
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7028848&assignment_repo_type=AssignmentRepo)
+You will use this exact `Makefile` for your Homework 1. Failure to do so will result in *deduction* of points.
 
-C++ projects submissions from Software Analysis and Design 2.
+To compile on terminal, type:
 
-Summary of course:  Design and analysis of algorithms and abstract data types. 
+```bash
+make clean
+make all
+```
 
-Topics covered:     Data structures with related algorithms. abstraction, algorithm complexity, performance analysis and the
-                    tradeoffs between running time, storage size, clarity and extensibility, templates, inheritance, polymorphism,
-                    pointers, and dynamic memory allocation.
+To delete executables and object files, type:
 
+```bash
+make clean
+```
 
-C++ projects submissions from Software Analysis and Design 1.
+To run, type:
 
-Summary of course:  Learn principles of programming, analysis, and design and gain a deep practical knowledge of C++. 
+```bash
+./test_points3d
+```
 
-Topics covered:     Fundamental data types, strings, arrays, loops, decisions, functions, scope, static vars, streams, pass by
-                    reference, arrays, pointers, dynamic memory allocation, objects, enumerations, classes.
-                    
+## Providing Input from Standard Input
+
+To run with a given file that is redirected to standard input:
+
+```bash
+./test_points3d < test_input_file.txt
+```
