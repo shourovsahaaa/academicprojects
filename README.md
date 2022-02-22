@@ -8,7 +8,7 @@ Summary of course:  Design and analysis of more algorithms using abstract data t
 
 Topics covered:     Algorithms, including searching, sorting, graph and tree algorithms. Problem-solving techniques. Worst and average case behavior analysis and optimality. Polynomial time complexity classes and theory, including NP-completeness.  
                     
-File Name: __Software Analysis and Design 2__
+File Name: __Software Analysis and Design 2__  
 Description: C++ projects submissions from Software Analysis and Design 2.  
 Grade: A  
 
