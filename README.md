@@ -1,5 +1,6 @@
 # projects
-  **Software Analysis and Design 3**  
+  CUNY HUNTER COLLEGE COURSES
+  **CSCI 335: Software Analysis and Design 3**  
   Description: C++ projects submissions from Software Analysis and Design 3 (in progress).  
   Grade: IP  
 
@@ -9,7 +10,7 @@
                     Worst and average case behavior analysis and optimality. Polynomial time complexity classes and theory,
                     including NP-completeness.
 
-  **Software Analysis and Design 2**  
+  **CSCI 235: Software Analysis and Design 2**  
   Description: C++ projects submissions from Software Analysis and Design 2.  
   Grade: A  
 
@@ -19,7 +20,7 @@
                       and the tradeoffs between running time, storage size, clarity and extensibility, templates, inheritance, polymorphism,
                       pointers, and dynamic memory allocation.
 
-  **Software Analysis and Design 1**  
+  **CSCI 135: Software Analysis and Design 1**  
   Description: C++ projects submissions from Software Analysis and Design 1.  
   Grade: A  
 
