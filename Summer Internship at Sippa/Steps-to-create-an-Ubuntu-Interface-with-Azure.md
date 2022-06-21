@@ -5,7 +5,7 @@ Co-Contributer: James Ng
 Navigate to: https://azure.microsoft.com/en-us/ and create your account.
 
 <h2>Step 2: Setting up a server.</h2>
-1. To set up, either type in “Virtual Machines” on the search bar or navigate to the Virtual machine icon on the homepage and click “Create”.
+&emsp;1. To set up, either type in “Virtual Machines” on the search bar or navigate to the Virtual machine icon on the homepage and click “Create”.
 
 2. Leave the resource group empty, so deleting the VM wouldn't interfere with any other unaffiliated groups.
 
@@ -33,7 +33,7 @@ ssh [username]@[IP]
 ```
 &emsp;&emsp;filling in the brackets with the username entered during setup, and the IP located in the overview.
 
-4. Enter Y and use the default fingerprint.
+3. Enter Y and use the default fingerprint.
 *If you would like to be secure and create your own fingerprint, you may do so by following this link: https://docs.microsoft.com/en-us/azure/virtual-machines/linux-vm-connect?tabs=Linux
 
 **You should now be connected!**
