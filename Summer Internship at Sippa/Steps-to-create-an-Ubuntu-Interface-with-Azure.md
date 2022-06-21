@@ -1,8 +1,8 @@
-#Steps to create a Ubuntu Interface with Azure#
-##Step 1: Create an Azure Account.
+<h1>Steps to create an Ubuntu Interface with Azure</h1>
+<h2>Step 1: Create an Azure Account.</h2>
 Navigate to: https://azure.microsoft.com/en-us/ and create your account.
 
-##Step 2: Setting up a server.
+<h2>Step 2: Setting up a server.</h2>
 1. To set up, either type in “Virtual Machines” on the search bar or navigate to the Virtual machine icon on the homepage and click “Create”.
 
 2. Leave the resource group empty, so deleting the VM wouldn't interfere with any other unaffiliated groups.
@@ -20,7 +20,7 @@ Using a spot instance would allow hourly use of the server and possibly reduce c
 7. Review and create.
 
 
-##Step 3: Connecting to the server.
+<h2>Step 3: Connecting to the server.</h2>
 
 1. To connect to the server, you must have access to a Linux system or a subsystem. If on Windows, use the Linux Subsystem for Windows, Ubuntu. 
 Only for Windows users, steps to download Ubuntu can be found here: https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview
@@ -37,9 +37,9 @@ ssh [username]@[IP]
 **You should now be connected!**
 
 
-##Step 4 (Optional): Setting up a desktop environment for your VM (on Windows).
+<h2>Step 4 (Optional): Setting up a desktop environment for your VM (on Windows).</h2>
 
-######1. First we must install a desktop environment on our VM.
+1. First we must install a desktop environment on our VM.
 Enter the following command to connect to your server using your password (Skip this step if you are already connected):
 ```
 ssh [username]@[IP]
@@ -63,6 +63,7 @@ And restart the service with the following command:
 ```
 sudo service xrdp restart
 ```
+
 2. Now we must set up port forwarding rules to access the server. Navigate to the Networking tab of your VM on Azure. Locate “Add inbound port rule” to add a rule and leave everything default except “Destination port ranges” and set that to “3389” and the “Name” which you could set to anything, but for this guide, we will name it “RDP_Port”. 
 
 3. Return to the overview of your VM on Azure. Locate the dropdown menu under “Connect” and click on “RDP” (Remote Desktop Protocol). Make sure your “Public IP Address ([IP])” is selected and the port is set to its forwarded value, “3389”. Download the RDP file and after executing, you will be able to use your username and credentials to log into the VM’s desktop environment.
