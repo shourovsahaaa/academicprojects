@@ -1,3 +1,5 @@
+Author: Shourov Saha,
+Co-Contributer: James Ng
 <h1>Steps to create an Ubuntu Interface with Azure</h1>
 <h2>Step 1: Create an Azure Account.</h2>
 Navigate to: https://azure.microsoft.com/en-us/ and create your account.
@@ -9,7 +11,7 @@ Navigate to: https://azure.microsoft.com/en-us/ and create your account.
 
 3. Leave all the unrequired parameters, ones marked without a red ‘*’, empty.
 
-4. Give your instance a name to view it on your Azure Account, choose your preferred server location, and under “Image,” chose “Ubuntu Server 20.04 LTS - Gen2”.
+4. Give your instance a name to view it on your Azure Account, choose your preferred server location, and under “Image,” chose “Ubuntu Server 22.04 LTS - Gen2”.
 Using a spot instance would allow hourly use of the server and possibly reduce costs, however, is not supported by all sizes.
 ( For this guide, we will choose Standard DS1_v2. ) 
 
@@ -17,7 +19,7 @@ Using a spot instance would allow hourly use of the server and possibly reduce c
 
 6. For the “Inbound port rules”, allow selected ports, and in the dropdown menu, HTTP, HTTPS, and SSH should be enabled. If not, you can go into the networking tab in your VM on Azure and set up these forwarding rules manually.
 
-7. Review and create.
+7. Click "Review + Create", followed by "Create".
 
 
 <h2>Step 3: Connecting to the server.</h2>
@@ -29,7 +31,7 @@ Only for Windows users, steps to download Ubuntu can be found here: https://ubun
 ```
 ssh [username]@[IP]
 ```
-3. filling in the brackets with the username entered during setup, and the IP located in the overview.
+&emsp;&emsp;filling in the brackets with the username entered during setup, and the IP located in the overview.
 
 4. Enter Y and use the default fingerprint.
 *If you would like to be secure and create your own fingerprint, you may do so by following this link: https://docs.microsoft.com/en-us/azure/virtual-machines/linux-vm-connect?tabs=Linux
@@ -44,22 +46,22 @@ Enter the following command to connect to your server using your password (Skip 
 ```
 ssh [username]@[IP]
 ```
-Then, use the following commands to download the required packages for a Desktop Environment:
+&emsp;&emsp;Then, use the following commands to download the required packages for a Desktop Environment:
 ```
 sudo apt-get update
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y install xfce4
 sudo apt install xfce4-session
 ```
-Install the packages using the following commands:
+&emsp;&emsp;Install the packages using the following commands:
 ```
 sudo apt-get -y install xrdp
 sudo systemctl enable xrdp
 ```
-Configure the packages by entering the following command:
+&emsp;&emsp;Configure the packages by entering the following command:
 ```
 echo xfce4-session >~/.xsession
 ```
-And restart the service with the following command:
+&emsp;&emsp;And restart the service with the following command:
 ```
 sudo service xrdp restart
 ```
