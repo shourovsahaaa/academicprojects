@@ -46,7 +46,7 @@ Enter the following command to connect to your server using your password (Skip 
 ```
 ssh [username]@[IP]
 ```
-&emsp;&emsp;Then, use the following commands to download the required packages for a Desktop Environment:
+&emsp;&emsp;Then use the following commands to download the required packages for a Desktop Environment:
 ```
 sudo apt-get update
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y install xfce4
@@ -61,11 +61,11 @@ sudo systemctl enable xrdp
 ```
 echo xfce4-session >~/.xsession
 ```
-&emsp;&emsp;And restart the service with the following command:
+&emsp;&emsp;Restart the service with the following command:
 ```
 sudo service xrdp restart
 ```
 
-2. Now we must set up port forwarding rules to access the server. Navigate to the Networking tab of your VM on Azure. Locate “Add inbound port rule” to add a rule and leave everything default except “Destination port ranges” and set that to “3389” and the “Name” which you could set to anything, but for this guide, we will name it “RDP_Port”. 
+2. Next we must set up port forwarding rules to access the server. Navigate to the Networking tab of your VM on Azure. Locate “Add inbound port rule” to add a rule and leave everything default except “Destination port ranges” and set that to “3389” and the “Name” which you could set to anything, but for this guide, we will name it “RDP_Port”. 
 
 3. Return to the overview of your VM on Azure. Locate the dropdown menu under “Connect” and click on “RDP” (Remote Desktop Protocol). Make sure your “Public IP Address ([IP])” is selected and the port is set to its forwarded value, “3389”. Download the RDP file and after executing, you will be able to use your username and credentials to log into the VM’s desktop environment.
